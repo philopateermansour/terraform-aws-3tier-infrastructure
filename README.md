@@ -10,7 +10,7 @@ This repository contains Terraform code to deploy a secure and scalable 3-tier a
 
 This project implements a classic 3-tier web architecture using Terraform:
 
-- **Presentation Tier** – Frontend servers in public subnets  
+- **Presentation Tier** – Frontend servers in private subnets  
 - **Application Tier** – Backend logic in private subnets  
 - **Data Tier** – MySQL RDS database in isolated subnets  
 
